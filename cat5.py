@@ -1,0 +1,5 @@
+print("question 5:")
+n=input("Enter the string:")
+l=n.split("-")
+l.sort()
+print("_".join(l))
